@@ -22,11 +22,10 @@
                 <button
                 onclick="
                 let cantidadNumero = document.querySelector('#cantidad')
-                let valor = Number(cantidadNumero.innerHTML)
-                cantidadNumero.innerHTML = valor +1
+                let valorSuma = Number(cantidadNumero.innerHTML)
+                cantidadNumero.innerHTML = valorSuma +1
 
                 let cantidadNumero1 = document.querySelector('#valor-total')
-                let valor1 = Number(cantidadNumero1.innerHTML)
                 cantidadNumero1.innerHTML = cantidadNumero.innerHTML * 400000
 
                 "    
@@ -36,12 +35,11 @@
                 <button
                 onclick="
                 let cantidadNumero = document.querySelector('#cantidad')
-                let valor = Number(cantidadNumero.innerHTML)
-                cantidadNumero.innerHTML = valor - 1
+                let valorResta = Number(cantidadNumero.innerHTML)
+                cantidadNumero.innerHTML = valorResta - 1
 
 
                 let cantidadNumero1 = document.querySelector('#valor-total')
-                let valor1 = Number(cantidadNumero1.innerHTML)
                 cantidadNumero1.innerHTML = cantidadNumero.innerHTML * 400000
 
                 " 
