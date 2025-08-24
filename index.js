@@ -4,4 +4,3 @@ precioSpan = document.querySelector(".precio-inicial");
 precioSpan.innerHTML = precio
 
 
-let nombre = "Mario"
